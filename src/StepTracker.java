@@ -44,7 +44,8 @@ public class StepTracker {
 
 
     void changeStepGoal() {
-        System.out.println("Введите цель шагов на день.");
+        System.out.println("Текущая цель шагов: "+goalByStepsPerDay);
+        System.out.println("Введите новую цель шагов на день.");
         goalByStepsPerDay = scanner.nextInt();
 
 
@@ -71,7 +72,7 @@ public class StepTracker {
         System.out.println();
         System.out.println("Количества сожжённых килокалорий за месяц: " + converter.convertStepsToKilocalories(sumSteps));
         System.out.println();
-        System.out.println("Лушая серия: " + monthData.bestSeries(goalByStepsPerDay));
+        System.out.println("Лучшая серия: " + monthData.bestSeries(goalByStepsPerDay));
 
     }
 

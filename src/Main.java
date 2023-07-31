@@ -33,7 +33,7 @@ public class Main {
         System.out.println("Что вы хотите сделать?");
         System.out.println("1 - Ввести количество шагов за определённый день.");
         System.out.println("2 - Изменить цель по количеству шагов в день.");
-        System.out.println("3 - Вывести статистику за определённый день.");
+        System.out.println("3 - Вывести статистику за определённый месяц.");
         System.out.println("0 - Выйти из приложения");
     }
 }
